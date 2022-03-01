@@ -90,14 +90,22 @@ main section span{
 }
 
 /* Simboli */
+main section span.cerchio::before{
+    border-radius: 50%;
+    padding: 1px 3px;
+    font-size: x-small;
+}
+
 main section span.completo::before{
     content:'\2713';
     color: green;
+    border: 1px solid green;
 }
 
-main section p.incompleto::before{
+main section span.incompleto::before{
     content:'\2715';
     color: red;
+    border: 1px solid red;
 }
 
 /* Etichette colorate */
