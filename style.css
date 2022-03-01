@@ -100,10 +100,29 @@ main section span.etichetta{
     font-size: x-small;
     padding: 5px 10px;
     color: white;
-    text-align: center;
+    border-radius: 10px;
 }
 
 main section span.editorial{
     background-color: rgb(69, 171, 234);
-    border-radius: 10px;
-} 
+}
+
+main section span.goals{
+    background-color: rgb(156, 114, 228);
+}
+
+main section span.recruting{
+    background-color: rgb(100, 192, 169);
+}
+
+main section span.mobile{
+    background-color: rgb(242, 158, 51);
+}
+
+main section span.website{
+    background-color: rgb(216, 99, 161);
+}
+
+main section span.sales{
+    background-color: rgb(176, 201, 38);
+}
