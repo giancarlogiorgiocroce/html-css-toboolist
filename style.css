@@ -85,7 +85,7 @@ main section h3::before{
 }
 
 /* Simboli */
-main section p.completo::before{
+main section span.completo::before{
     content:'\2713';
     color: green;
 }
@@ -96,7 +96,14 @@ main section p.incompleto::before{
 }
 
 /* Etichette colorate */
-main section p.completo::before{
-    content:'\2713';
-    color: green;
+main section span.etichetta{
+    font-size: x-small;
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
 }
+
+main section span.editorial{
+    background-color: rgb(69, 171, 234);
+    border-radius: 10px;
+} 
