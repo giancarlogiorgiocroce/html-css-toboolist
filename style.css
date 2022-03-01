@@ -1,6 +1,4 @@
-/* 
-    GENERAL
-*/
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
@@ -17,9 +15,10 @@ body{
     margin: 1px auto;
     background-color: white;
 }
-/* 
-    HEADER
-*/
+/* FINE GENERAL */
+
+
+/* HEADER */
 header{
     background-color: white;
     padding: 10px;
@@ -34,10 +33,10 @@ header span{
     font-size: 40px;
     font-weight: bolder;
 }
+/* FINE HEADER */
 
-/* 
-    NAVIGATOR
-*/
+
+/* NAVIGATOR */
 nav{
     padding: 15px 0 10px;
     border-top-left-radius: 5px;
@@ -62,10 +61,10 @@ nav .button.second{
     background-color: white;
     color: lightgrey;
 }
+/* FINE NAVIGATOR */
 
-/* 
-    MAIN
-*/
+
+/* MAIN */
 main{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -94,7 +93,8 @@ main section h3::before{
     margin-right: 5px;
 }
 
-/* Simboli */
+
+/* Simboli colorati*/
 main section span.cerchio::before{
     border-radius: 50%;
     padding: 1px 3px;
@@ -113,6 +113,8 @@ main section span.incompleto::before{
     color: red;
     border: 1px solid red;
 }
+/* Fine Simboli colorati */
+
 
 /* Etichette colorate */
 main section span.etichetta{
@@ -145,3 +147,5 @@ main section span.website{
 main section span.sales{
     background-color: rgb(176, 201, 38);
 }
+/* Fine Etichette colorate */
+/* FINE MAIN */
