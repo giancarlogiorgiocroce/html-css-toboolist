@@ -66,5 +66,37 @@ nav .button.second{
     MAIN
 */
 main{
-    height: 900px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main>section{
+    padding: 40px 50px;
+}
+
+main section h3{
+    margin: 10px 0;
+}
+
+main section h3::before{
+    content:'\25BC';
+    font-size: small;
+    margin-right: 5px;
+}
+
+/* Simboli */
+main section span.completo::before{
+    content:'\2713';
+    color: green;
+}
+
+main section span.incompleto::before{
+    content:'\2715';
+    color: red;
+}
+
+/* Etichette colorate */
+main section span.completo::before{
+    content:'\2713';
+    color: green;
 }
