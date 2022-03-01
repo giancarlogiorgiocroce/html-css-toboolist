@@ -71,17 +71,18 @@ main{
 }
 
 main>section{
-    padding: 40px 50px;
-}
-
-main section h3{
-    margin: 10px 0;
+    padding: 10px 50px;
 }
 
 main section h3::before{
     content:'\25BC';
     font-size: small;
     margin-right: 5px;
+}
+
+main section span{
+    display: inline-block;
+    margin: 5px 0;
 }
 
 /* Simboli */
