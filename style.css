@@ -71,7 +71,11 @@ main{
 }
 
 main>section{
-    padding: 10px 50px;
+    padding: 0px 50px 30px;
+}
+
+.new-task{
+    padding-top: 30px;
 }
 
 main section h3::before{
