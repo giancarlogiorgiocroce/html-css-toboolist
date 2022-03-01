@@ -85,18 +85,18 @@ main section h3::before{
 }
 
 /* Simboli */
-main section span.completo::before{
+main section p.completo::before{
     content:'\2713';
     color: green;
 }
 
-main section span.incompleto::before{
+main section p.incompleto::before{
     content:'\2715';
     color: red;
 }
 
 /* Etichette colorate */
-main section span.completo::before{
+main section p.completo::before{
     content:'\2713';
     color: green;
 }
