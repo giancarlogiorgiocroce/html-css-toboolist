@@ -9,12 +9,12 @@
 }
 
 body{
-    background-color: rgb(246, 248, 249);
+    background-color: red;/* rgb(246, 248, 249); */
 }
 
 .container{
     width: 60%;
-    margin: auto;
+    margin: 1px auto;
     background-color: white;
 }
 /* 
@@ -45,7 +45,7 @@ nav{
 }
 
 nav .button{
-    padding: 7px;
+    padding: 7px 15px;
     border-radius: 5px;
 }
 
