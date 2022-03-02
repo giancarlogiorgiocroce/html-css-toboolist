@@ -47,17 +47,18 @@ nav .button{
     font-size: x-small;
     padding: 10px 12px 7px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 nav .button.first{
     margin-left: 50px;
-    border: 0px;
+    border: 1px solid rgb(71, 173, 241);
     background-color: rgb(71, 173, 241);
     color: white;
 }
 
 nav .button.second{
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     background-color: white;
     color: lightgrey;
 }
